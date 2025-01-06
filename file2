@@ -1,0 +1,2 @@
+LOAD DATA INPATH '/user/hadoop/studentspf1/studentsperformancefactors.csv' 
+INTO TABLE students_performance_factors;
