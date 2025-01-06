@@ -1,0 +1,25 @@
+CREATE TABLE students_performance_factors (
+    hours_studied INT,
+    attendance FLOAT,
+    parental_involvement STRING,
+    access_to_resources STRING,
+    extracurricular_activities STRING,
+    sleep_hours FLOAT,
+    previous_scores FLOAT,
+    motivation_level STRING,
+    internet_access STRING,
+    tutoring_sessions INT,
+    family_income FLOAT,
+    teacher_quality STRING,
+    school_type STRING,
+    peer_influence STRING,
+    physical_activity FLOAT,
+    learning_disabilities STRING,
+    parental_education_level STRING,
+    distance_from_home FLOAT,
+    gender STRING,
+    exam_score FLOAT
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
