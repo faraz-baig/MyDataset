@@ -1,0 +1,5 @@
+%jdbc(hive)
+SELECT Extracurricular_Activities, AVG(exam_score) AS avg_exam_score
+FROM students_performance_factors
+GROUP BY Extracurricular_Activities
+ORDER BY avg_exam_score DESC
