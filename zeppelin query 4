@@ -1,0 +1,5 @@
+%jdbc(hive)
+SELECT Parental_Involvement, AVG(exam_score) AS avg_exam_score
+FROM students_performance_factors
+GROUP BY Parental_Involvement
+ORDER BY avg_exam_score DESC;
