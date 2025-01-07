@@ -1,0 +1,5 @@
+%sql
+SELECT Gender, AVG(exam_score) AS avg_exam_score
+FROM students_performance_factors
+GROUP BY Gender
+ORDER BY avg_exam_score DESC;
