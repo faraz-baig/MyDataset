@@ -1,0 +1,5 @@
+%jdbc(hive)
+SELECT Sleep_Hours, AVG(exam_score) AS avg_exam_score
+FROM students_performance_factors
+GROUP BY Sleep_Hours
+ORDER BY Sleep_Hours;
