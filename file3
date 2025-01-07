@@ -1,0 +1,5 @@
+%jdbc(hive)
+SELECT Family_Income, AVG(exam_score) AS avg_exam_score
+FROM students_performance_factors
+GROUP BY Family_Income
+ORDER BY avg_exam_score DESC;
