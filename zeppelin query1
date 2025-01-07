@@ -1,0 +1,4 @@
+SELECT hours_studied, AVG(Motivation_Level) AS avg_motivation, AVG(Sleep_Hours) AS avg_sleep_hours
+FROM students_performance_factors
+GROUP BY hours_studied
+ORDER BY hours_studied;
